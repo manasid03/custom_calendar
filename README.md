@@ -6,7 +6,7 @@ Give it a try!
 
 [![](https://jitpack.io/v/manasid03/custom_calendar.svg)](https://jitpack.io/#manasid03/custom_calendar)
 
-![Alt text](/image1.png?raw=true "1")  ![Alt text](/image2.png?raw=true "2")
+![Alt text](/image1.png?raw=true "1")  ![Alt text](/image2.png?raw=true "2")   ![Alt text](/image3.png?raw=true "3")
 
 #How to include it in your project?
 
