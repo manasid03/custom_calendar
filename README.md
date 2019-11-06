@@ -32,7 +32,7 @@ Give it a try!
     
     #Gradle
     dependencies {
-	        implementation 'com.github.manasid03:custom_calendar:Tag'
+	        implementation 'com.github.manasid03:custom_calendar:v1.0.0'
 	}
     
     #Maven
