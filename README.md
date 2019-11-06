@@ -4,7 +4,7 @@ You can customize it in a way you want to. You have got various options to play 
 Open to suggestions, if you have any! 
 Give it a try! 
 
-#To create a initialize a calendar
+#To initialize a calendar
 
     CustomCalendarView calendarView = findViewById(R.id.mCalendar);       
     calendarView.setDayFont("fonts/Questrial-Regular.ttf")
