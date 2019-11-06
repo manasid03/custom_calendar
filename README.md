@@ -1,12 +1,46 @@
-
-
-
 # custom_calendar
 This is customized calendar. 
 You can customize it in a way you want to. You have got various options to play around with your calendar. 
 Open to suggestions, if you have any! 
 Give it a try! 
 
+[![](https://jitpack.io/v/manasid03/custom_calendar.svg)](https://jitpack.io/#manasid03/custom_calendar)
+
+#How to include it in your project?
+
+   
+    #Gradle 
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    
+    #Maven
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+   
+    
+    Step 2. Add the dependency
+    
+    #Gradle
+    dependencies {
+	        implementation 'com.github.manasid03:custom_calendar:Tag'
+	}
+    
+    #Maven
+    <dependency>
+	    <groupId>com.github.manasid03</groupId>
+	    <artifactId>custom_calendar</artifactId>
+	    <version>Tag</version>
+	</dependency>
+    
 #To initialize a calendar
 
     CustomCalendarView calendarView = findViewById(R.id.mCalendar);       
