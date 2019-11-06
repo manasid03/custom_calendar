@@ -8,7 +8,8 @@ Give it a try!
 
 #How to include it in your project?
 
-   
+    Step 1. Add the JitPack repository to your build file
+    
     #Gradle 
     allprojects {
 		repositories {
