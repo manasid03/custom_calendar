@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/white"
+    android:elevation="0.5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv_date"
+            android:textSize="14sp"
+            android:background="@drawable/round_button"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="EV"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_value"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_date"
+            android:text="Blah Blah Blah"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

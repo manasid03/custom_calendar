@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/relativeTile">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_date"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:text="1"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/event"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_below="@id/tv_date"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/event_plus"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/event"
+            android:layout_below="@id/tv_date"
+            />
+
+    </RelativeLayout>
+

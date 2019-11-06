@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="Note">Other customizations \n 1. Set selected date text color \n 2. Set selected date background drawable \n 3. Set disabled date selected background drawable \n 4. Set event drawable \n 5. Remove all or specific event \n  and much more to come
+    </string>
+
+    <string-array name="date_font_size">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="day_font_size">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="fonts">
+        <item>fonts/Questrial-Regular.ttf</item>
+        <item>fonts/NewsCycle-Regular.ttf</item>
+        <item>fonts/Barlow-Regular.ttf</item>
+        <item>fonts/Pacifico-Regular.ttf</item>
+        <item>fonts/Prociono-Regular.ttf</item>
+        <item>fonts/Caveat-Regular.ttf</item>
+        <item>fonts/Cookie-Regular.ttf</item>
+        <item>fonts/Courgette-Regular.ttf</item>
+        <item>fonts/DidactGothic-Regular.ttf</item>
+        <item>fonts/Domine-Regular.ttf</item>
+        <item>fonts/LobsterTwo-Regular.ttf</item>
+        <item>fonts/Rokkitt-Regular.ttf</item>
+        <item>fonts/Satisfy-Regular.ttf</item>
+    </string-array>
+
+    <string-array name="yes_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="calendar_height">
+        <item>200</item>
+        <item>240</item>
+        <item>280</item>
+        <item>300</item>
+        <item>350</item>
+    </string-array>
+
+    <string-array name="block_size">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+</resources>
