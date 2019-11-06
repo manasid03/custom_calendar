@@ -6,6 +6,8 @@ Give it a try!
 
 [![](https://jitpack.io/v/manasid03/custom_calendar.svg)](https://jitpack.io/#manasid03/custom_calendar)
 
+![Alt text](/relative/path/to/img.jpg?raw=true "1")
+
 #How to include it in your project?
 
     Step 1. Add the JitPack repository to your build file
