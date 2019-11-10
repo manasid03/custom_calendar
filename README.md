@@ -44,6 +44,13 @@ Give it a try!
 	    <version>Tag</version>
 	</dependency>
     
+#XML
+
+     <com.customcalendar.CustomCalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mCalendar"/>
+	
 #To initialize a calendar
 
     CustomCalendarView calendarView = findViewById(R.id.mCalendar);       
